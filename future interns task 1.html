@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kohinoor Kumar Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #f4f7fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      letter-spacing: 1px;
+    }
+
+    header h2 {
+      margin: 10px 0 0 0;
+      font-weight: normal;
+      font-size: 1.4em;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 25px;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffea00;
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    #about {
+      background: linear-gradient(45deg, #e0f7fa, #f0f4c3);
+    }
+
+    #skills {
+      background: linear-gradient(45deg, #fff9c4, #ffe0b2);
+    }
+
+    #projects {
+      background: linear-gradient(45deg, #e1bee7, #f8bbd0);
+    }
+
+    #achievements {
+      background: linear-gradient(45deg, #c8e6c9, #dcedc8);
+    }
+
+    #contact {
+      background: linear-gradient(45deg, #ffe0b2, #ffccbc);
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 40px;
+      color: #0072ff;
+    }
+
+    .resume-btn {
+      display: inline-block;
+      margin: 20px auto;
+      padding: 12px 25px;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .resume-btn:hover {
+      background: linear-gradient(90deg, #0072ff, #00c6ff);
+      transform: scale(1.05);
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .card h4 {
+      margin-top: 0;
+      color: #0072ff;
+    }
+
+    ul.skills-list {
+      max-width: 600px;
+      margin: 0 auto;
+      padding-left: 20px;
+      font-size: 1.1em;
+    }
+
+    ul.skills-list li {
+      margin-bottom: 10px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 14px;
+      margin: 12px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    form button {
+      padding: 14px 30px;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.1em;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    form button:hover {
+      background: linear-gradient(90deg, #0072ff, #00c6ff);
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #0072ff;
+      color: #fff;
+      margin-top: 60px;
+    }
+
+    a {
+      color: #0072ff;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #ff4b2b;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Kohinoor Kumar</h1>
+    <h2>Software Developer</h2>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://in.docworkspace.com/d/sILnrrJXrAfbzs8MG?lg=en-US&sa=601.1074&ps=1&fn=DOC-20250708-WA0004..pdf" target="_blank">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h3>About Me</h3>
+    <p style="text-align: center; max-width: 800px; margin: 0 auto; font-size:1.2em;">
+      I am Kohinoor Kumar from Bihar. Currently pursuing B.Tech at SMIST University, I am a third-year student passionate about software development and problem-solving. My skills include C, DSA using C++, and full stack web development. I aim to build impactful solutions through technology and continuous learning.
+    </p>
+    <div style="text-align:center;">
+      <a href="https://in.docworkspace.com/d/sILnrrJXrAfbzs8MG?lg=en-US&sa=601.1074&ps=1&fn=DOC-20250708-WA0004..pdf" target="_blank" class="resume-btn">View Resume</a>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h3>Skills</h3>
+    <ul class="skills-list">
+      <li>C Programming</li>
+      <li>DSA (C++)</li>
+      <li>Frontend Development (HTML, CSS, JS)</li>
+      <li>Backend Development (Node.js, MongoDB)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h3>Projects</h3>
+    <div class="card-container">
+      <div class="card">
+        <h4>Simple Website Page</h4>
+        <p>Built using HTML and CSS only to design a basic static webpage showcasing frontend skills.</p>
+      </div>
+      <div class="card">
+        <h4>Weather Checking App</h4>
+        <p>Developed using HTML, CSS, and JavaScript to display weather, temperature, and humidity details for any city.</p>
+        <a href="https://github.com/kohinoormishra" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h3>Achievements</h3>
+    <div class="card-container">
+      <div class="card"><p>Business Development Internship Program Certificate at Younity Company</p></div>
+      <div class="card"><p>Full Stack Development Internship Certificate at Learnex Company</p></div>
+      <div class="card"><p>Training Completion Certificate from Learnex Company</p></div>
+      <div class="card"><p>Excellence Certificate from Learnex Company</p></div>
+      <div class="card"><p>Hackathon Certificate (Sharpaithon) and Workshop Participation</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact Me</h3>
+    <p style="text-align:center; font-size:1.2em;">Email: <a href="mailto:kohinoormishra58@gmail.com">kohinoormishra58@gmail.com</a> | Mobile: <a href="tel:8102849917">8102849917</a></p>
+
+    <form id="contactForm" style="max-width:600px; margin:20px auto;">
+      <input type="text" id="name" name="name" placeholder="Your Name" required />
+      <input type="email" id="email" name="email" placeholder="Your Email" required />
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <p id="formResponse" style="text-align:center;"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kohinoor Kumar</p>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      document.getElementById('formResponse').textContent = `Thank you, ${name}. Your message has been received.`;
+      document.getElementById('contactForm').reset();
+    });
+  </script>
+
+</body>
+</html>
